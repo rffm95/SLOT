@@ -1,2 +1,12 @@
-# SLOT
-SLOT CHEERS
+# CHEERS × RED BULL — Jackpot Hour
+TV 16:9, cena 1600×900 automaticamente ajustada ao viewport sem cortes. HTML/CSS/JS sem framework, sem dependências externas e sem API. Identidade Red Bull em texto e símbolos ilustrativos; não são fotografias oficiais de produto nem logótipo oficial.
+
+Probabilidades por giro: garrafa vodka da casa 70 cl sem mixers 2%; Vodka Red Bull ou Vodka Red Bull Tropical 10%; três shots da casa 10%; um shot da casa 25%; sem prémio 53%. Cada categoria premiada mostra três símbolos iguais correspondentes. Categorias amostradas diretamente; os rolos representam o resultado, não são três sorteios independentes. crypto.getRandomValues com rejection sampling garante distribuição uniforme de 100 posições; não há quotas escondidas, ajuste conforme vendas ou falsos quase-prémios. Probabilidade não implica frequência garantida. Os 47% premiados podem variar em cada sessão.
+
+Operação: abrir EQUIPA, preencher preço/custos reais e INICIAR 60 MINUTOS. Após faturar bebida elegível no POS, carregar COMPRA PAGA → +1 GIRO; fechar painel e cliente gira. Apenas compras durante sessão recebem créditos. Giros já emitidos continuam utilizáveis depois dos 60 minutos. Prémios não geram créditos. Anular apenas créditos não utilizados. Confirmar entrega do último prémio antes de outro giro; prémios anteriores ficam no histórico/exportação e podem ser controlados manualmente. Pausa suspende relógio e giros. Não guardar dados pessoais.
+
+Resultados e crédito consumido são guardados ANTES da animação; recarregar não devolve giros. LocalStorage conserva sessão neste browser; nunca usar navegação privada, limpar dados ou mudar dispositivo antes de exportar. Fim de sessão exportar JSON. Não existe autenticação, backend, sincronização, antifraude de clientes, integração POS ou resgate remoto. Não partilhar o comando com clientes sem supervisão. Esta versão é uma app de TV operada pela equipa, não um portal público seguro de participação.
+
+Custo esperado por giro = 0,02×custo garrafa + 0,10×custo bebida + 0,55×custo shot. Com exemplos 12€/2€/0,35€: 0,6325€ por giro. Custos reais devem incluir perdas/mixers e usar uma base contabilística consistente; não confundir prémios sorteados com lucro ou garantia de orçamento. Probabilidades constantes: ao esgotar stock, pausar/encerrar emissão de participações e honrar direitos já emitidos; não alterar probabilidades durante sessão. Campanha e parceria Red Bull são declaradas pelo operador; app não verifica autorizações. Confirmar volumes, marcas, regulamento, elegibilidade 18+ e condições aplicáveis antes de usar com clientes. Sem desafios de rapidez de consumo.
+
+Pages: Settings → Pages → GitHub Actions. Workflow publica a branch main. Browser da TV precisa de crypto.getRandomValues. Fullscreen após clique, som opcional. Testar no equipamento real.
